@@ -1,8 +1,7 @@
 #!/usr/bin/python
 # -*- coding:utf-8 -*-
-
 # bilateral filter for python
-# code by HanJianan
+# code by Axel Han
 # 2015.5
 
 import Image
@@ -80,7 +79,8 @@ Args:
         src: source image
 
 Returns:
-        dest: destination image after filting."""
+        dest: destination image after filting.
+"""
         
         width = src.size[0]
         height = src.size[1]
